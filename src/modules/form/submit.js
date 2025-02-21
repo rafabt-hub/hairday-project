@@ -25,7 +25,7 @@ form.onsubmit = (event) => {
       return alert("Selecione a hora.")
     }
 
-    const hour = hourSelected.innerText.split(":")
+    const [hour] = hourSelected.innerText.split(":")
 
     const when = dayjs(selectedDate.value).add(hour, "hour")
 
