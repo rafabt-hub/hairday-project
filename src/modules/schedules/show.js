@@ -29,11 +29,11 @@ export function scheduleShow({ dailySchedules }) {
 
       const hour = dayjs(schedule.when).hour()
 
-      if (hour <= 12) {
+      if(hour <= 12){
         periodMorning.appendChild(item)
-      } else if (hour > 12 && hour <= 18) {
+      }else if (hour > 12 && hour <= 18) {
         periodAfternoon.appendChild(item)
-      } else {
+      }else {
         periodNight.appendChild(item)
       }
     })
