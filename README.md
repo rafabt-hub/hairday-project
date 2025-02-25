@@ -1,11 +1,22 @@
-HairDay Project
+Hairday Project
 
-Description
-
-The HairDay Project is a simple application designed for scheduling appointments in beauty salons. It allows users to book services by selecting a date, time, and providing names.
+Hairday Project is a web application for managing beauty salon appointments. Users can schedule appointments by selecting the date, time, and entering their name. They can also view scheduled appointments by date and cancel them if needed.
 
 Features
 
-Simple appointment booking with date, time, and names.
+Book an appointment by selecting a date, time, and entering a name.
 
-Basic schedule management for professionals.
+View scheduled appointments filtered by date.
+
+Cancel appointments when necessary.
+
+Technologies Used
+
+HTML
+
+CSS
+
+JavaScript
+
+npm for package management and task automation
+
